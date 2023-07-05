@@ -1,0 +1,230 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\C5281837\\Downloads\\workspace\\crys_frameworks\\playwright\\api.config.ts",
+    "rootDir": "C:/Users/C5281837/Downloads/workspace/crys_frameworks/playwright/tests/api",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "./playwright-report-api-json/test-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report-api",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/C5281837/Downloads/workspace/crys_frameworks/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "C:/Users/C5281837/Downloads/workspace/crys_frameworks/playwright/tests/api",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/C5281837/Downloads/workspace/crys_frameworks/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "C:/Users/C5281837/Downloads/workspace/crys_frameworks/playwright/tests/api",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/C5281837/Downloads/workspace/crys_frameworks/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Webkit",
+        "name": "Webkit",
+        "testDir": "C:/Users/C5281837/Downloads/workspace/crys_frameworks/playwright/tests/api",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.33.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "petstore.spec.ts",
+      "file": "petstore.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "API Testing",
+          "file": "petstore.spec.ts",
+          "line": 11,
+          "column": 15,
+          "specs": [
+            {
+              "title": "POST Request - Create new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1304,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-17T07:55:40.525Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f30e3988fad6ffa0e7e9-0b05e22d08e60b579c2c",
+              "file": "petstore.spec.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "GET Request - Login with existing user and password combination",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1849,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-17T07:55:40.545Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f30e3988fad6ffa0e7e9-650f16977227e4337ba0",
+              "file": "petstore.spec.ts",
+              "line": 42,
+              "column": 9
+            },
+            {
+              "title": "POST Request - Add a new pet to the store inventory",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1244,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-17T07:55:40.579Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f30e3988fad6ffa0e7e9-32717938c3b3d55c91b2",
+              "file": "petstore.spec.ts",
+              "line": 79,
+              "column": 9
+            },
+            {
+              "title": "POST Request - Place a new order",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 668,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-17T07:55:40.585Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f30e3988fad6ffa0e7e9-9cd166dd3b69048f0daa",
+              "file": "petstore.spec.ts",
+              "line": 105,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
